@@ -13,34 +13,34 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <!-- css file -->
     <link rel="stylesheet" href="style.css">
+      <style>
+        .font-raleway{
+          font-family: "Raleway", sans-serif;
+        }
+    </style>
 
     <title>P-Ticket</title>
 </head>
 <body>
     <header class="mx-5 mt-5">
        <!-- nav bar -->
-       <nav>
-        <div class="navbar bg-base-100">
-            <div class="navbar-start">
-              <div class="dropdown">
-
-              </div>
-              <a class="btn btn-ghost text-4xl font-raleway text-[#030712]">P-Ticket</a>
-            </div>
-            <div class="navbar-center hidden lg:flex">
-              <ul class="menu menu-horizontal px-1 text-[#030712B3]">
-                
-                <li><a>Home</a></li>
-                <li><a>About</a></li>
-                <li><a>Destination</a></li>
-                <li><a>Search</a></li>
-              </ul>
-            </div>
-            <div class=" navbar-end bg-green-100 w-20 h-16  ">
-              <a class=" text-[#1DD100] font-bold flex gap-2 justify-center items-center">Bus <span><img src="images/bus-icon.png" alt=""></span></a>
-            </div>
-          </div>
-       </nav>
+       <div class="navbar bg-base-100 mb-6">
+        <div class="navbar-start">
+         
+          <a class=" font-raleway text-3xl font-extrabold">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1 font-medium  text-[#030712B2]">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn bg-[#1DD1001A]"><span class="text-[#1DD100]">Bus</span><img src="images/bus-icon.png" alt=""></a>
+        </div>
+      </div>
        <!-- navbar end -->
 
        <!-- banner  section -->
@@ -57,146 +57,7 @@
       <!-- banner end -->
     </header>
     <main>
-      <!-- cupon section -->
-      <h1 class="text-center" >Best offers for you</h1>
-      <section class="flex justify-center gap-5">
-        <div>
-          <div class="card w-96 bg-base-100 shadow-xl image-full">
-            <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
-            <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="card w-96 ">
-            <div class="card-body">
-              <h2 class="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div class="card-actions justify-end">
-                <button class="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <div class="flex justify-center items-center my-10">
-        <button class="btn btn-outline btn-success">See All Offers</button>
-      </div>
-
-      <!-- Bus info section -->
       
-      <section>
-              <div class="text-center">
-                <h1>P.H Paribahan </h1>
-                <p>Yes, you can run unit tests and view the results directly within the app. <br> The integrated testing features allow for a streamlined .</p>
-              </div>
-              <div>
-                <div class="flex gap-10">
-                  <div>
-                    <button class="btn bg-green-400 text-white ">40 Seats left</button>
-                  </div>
-                  <div>
-                    <img src="images/fare.png" alt="">
-                    <h1>550 Taka <br> <span>Per Seat</span> </h1>
-                  </div>
-                </div>
-              </div>
-              </div>
-      </section>
-
-      <!-- ticket interface -->
-                <div class="grid grid-cols-2 gap-2">
-                  <div>
-                    <h1>Select Your Seat</h1>
-                    <hr>
-                    <div class="flex justify-between">
-                      <p>Available</p>
-                      <p><img src="images/seat-green-filled.png" alt="">Selected</p>
-                      <hr>
-                      </div>
-                      <div class="grid grid-cols-4 gap-3">
-                        <kbd class="kbd">ctrl</kbd>
-                        
-                        <kbd class="kbd">shift</kbd>
-                        
-                        <kbd class="kbd">del</kbd>
-                        <kbd class="kbd">ctrl</kbd>
-                        
-                        <kbd class="kbd">shift</kbd>
-                        
-                        <kbd class="kbd">del</kbd>
-                        <kbd class="kbd">ctrl</kbd>
-                        
-                        <kbd class="kbd">shift</kbd>
-                    </div>
-
-                  </div>
-                  <div>
-                      <h1>Select Your Seat</h1>
-
-                      <div class="flex gap-10 justify-around">
-                        <h1>Seat</h1>
-                        <h1>Class</h1>
-                        <h1>Price</h1>
-                      </div>
-                      <div class="flex gap-10 justify-around">
-                        <h1>C2</h1>
-                        <h1>Economoy</h1>
-                        <h1>550</h1>
-                      </div>
-                      <div class="flex gap-10 justify-around">
-                        <h1>c2</h1>
-                        <h1>Economoy</h1>
-                        <h1>550</h1>
-                      </div>
-                      <hr>
-                      <div class="flex gap-5 justify-between">
-                        <h1>Total price</h1>
-                        <h1>BDT <span>1100</span></h1>
-                      </div>
-                  </div>
-
-                  <div>
-                    
-                    <input type="text" placeholder="Type here" class="input input-bordered w-full max-w-xs" /><button class="btn btn-success">Success</button>
-                  </div>
-                  <div>
-                    <h1>Grend Total</h1>
-                    <p>BDT<span>1100</span></p>
-                  </div>
-                  <div>
-                    <label class="input input-bordered flex items-center gap-2">
-                      Name
-                      <input type="text" class="grow" placeholder="Daisy" />
-                    </label>
-                    <label class="input input-bordered flex items-center gap-2">
-                      Email
-                      <input type="text" class="grow" placeholder="daisy@site.com" />
-                    </label>
-                    <label class="input input-bordered flex items-center gap-2">
-                      Name
-                      <input type="text" class="grow" placeholder="Daisy" />
-                    </label>
-                    <button class="btn btn-wide">Wide</button>
-                    
-                  </div>
-                </div>
-      <section>
-        <div>
-
-        </div>
-
-        <div>
-
-        </div>
-
-      </section>
-    </main>
     <footer>
 
     </footer>

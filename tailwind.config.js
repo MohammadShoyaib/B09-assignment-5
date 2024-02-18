@@ -2,7 +2,13 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-      extend: {},
+      
+      extend: {
+        fontFamily: {
+          'Inter': ['Inter', 'sans-serif'],
+          'Raleway': ['Raleway', 'serif'] // Ensure fonts with spaces have " " surrounding it.
+        }
+      },
     },
     plugins: [],
   }
